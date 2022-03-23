@@ -14,6 +14,7 @@ Next step was to figure out a way to generate a heightmap, and assign it to the 
 * The biomes just sort of abruptly start and end, there is no blending between them.
 * The biomes are assigned purely on the basis of heights, a temperature map overlayed on top of the heightmap would lead to a much more realistic result.
 * There are no water features other than lakes and oceans in the map, having some rivers could definitly liven up the maps.
+* The kind of terrain created by the map isn't very consistent, there is a lot more water sometimes, and sometimes very less. Adding more mathematical operations on the raw noise could definitely help with this, however that does require a lot of trial and error.
 
 ### References
 [Martin O' Leary's map generator](http://mewo2.com/notes/terrain/) which explores a different and a more realistic approach for creating a map by simulating natural processes.
