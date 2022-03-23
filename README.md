@@ -22,3 +22,8 @@ Next step was to figure out a way to generate a heightmap, and assign it to the 
 [Amit P's map gen notes](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/), which I have used for voronoi diagrams, graph representaion, and Perlin Noise manipulation.
 
 [Asgaar's map generator](https://azgaar.github.io/Fantasy-Map-Generator/), which is hands down the best I've seen till date.
+
+### Running the project yourself
+After cloning the repo, navigate to the root folder, and run the command `vendor\premake\premake5.exe vs2019`
+
+This will generate a Visual Studio .sln file which you can then open and compile the project by simply clicking the run button. The jc_voronoi.h file might give an error about a bunch of functions being redefined, you'll need to add an `inline` in the function definitions (for which it gives an error) to make it compile.
