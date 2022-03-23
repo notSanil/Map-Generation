@@ -7,3 +7,4 @@ MapGenerator.vcxproj
 MapGenerator.vcxproj.user
 MapGenerator.vcxproj.filters
 .vs/
+.vscode/
