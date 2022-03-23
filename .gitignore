@@ -1,0 +1,9 @@
+Debug/
+x64/
+obj/
+bin/
+MapGeneration.sln
+MapGenerator.vcxproj
+MapGenerator.vcxproj.user
+MapGenerator.vcxproj.filters
+.vs/

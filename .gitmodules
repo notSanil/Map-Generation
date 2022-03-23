@@ -1,0 +1,6 @@
+[submodule "mapGenerator/vendor/voronoi"]
+	path = mapGenerator/vendor/voronoi
+	url = https://github.com/JCash/voronoi.git
+[submodule "mapGenerator/vendor/PerlinNoise"]
+	path = mapGenerator/vendor/PerlinNoise
+	url = https://github.com/Reputeless/PerlinNoise.git
